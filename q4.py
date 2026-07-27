@@ -6,8 +6,8 @@
 # /*****************************************************/
 
 def run():
-    name=input('What is your name? ')
-    desc=input('Describe yourself: ')
+    name=input('What is you're name? ')
+    desc=input('Describe yourself. ')
     html='<html>\n<head>\n</head>\n<body>\n<center>\n<h1>'+name+'</h1>\n</center>\n<hr />\n'+desc+'\n</body>\n</html>'
     f=open('webpage.html','w')
     f.write(html)
