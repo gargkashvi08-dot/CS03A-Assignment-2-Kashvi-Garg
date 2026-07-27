@@ -14,7 +14,7 @@ def show_prime(n):
     if prime:
         print(str(n)+' is a prime number')
     else:
-        print(str(n)+' is not a prime number')
+        print(str(n)+' isnt a prime number')
 
 def run():
     n=int(input('Enter an integer greater than 1: '))
